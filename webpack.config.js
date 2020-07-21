@@ -1,6 +1,7 @@
 module.exports = {
     entry: './main.js',
     mode: 'development',
+    devtool: 'source-map',
     optimization: {
         minimize: false
     },
